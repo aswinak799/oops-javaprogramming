@@ -10,7 +10,7 @@ class Cube{
 		System.out.println("list of cubes:");
 
 		for(int i=1;i<=n;i++){
-				System.out.println(Math.pow(i, 3));
+				System.out.println("Cube of "+i+" is -->"+Math.pow(i, 3));
 			
 			}		
 
@@ -22,9 +22,10 @@ OUTPUT
 Enter a  number:
 5
 list of cubes:
-1.0
-8.0
-27.0
-64.0
-125.0
+Cube of 1 is -->1.0
+Cube of 2 is -->8.0
+Cube of 3 is -->27.0
+Cube of 4 is -->64.0
+Cube of 5 is -->125.0
+
 */

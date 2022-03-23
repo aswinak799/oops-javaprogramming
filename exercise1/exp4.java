@@ -13,14 +13,14 @@ public class exp4{
 		int z= obj2.nextInt();
 		if(x<y && y<z)
 		{
-			System.out.println("Incresing order....!");
+			System.out.println("Increasing order....!");
 		}
 		else if(x>y && y>z)
 		{
-			System.out.println("Dicresing order....!");
+			System.out.println("Dicreasing order....!");
 		}
 		else {
-			System.out.println("Neither Incresing Nor Dicresing order....!");
+			System.out.println("Neither Increasing Nor Dicreasing order....!");
 		}
 		
 		
@@ -30,11 +30,26 @@ public class exp4{
 }
 /*
 OUTPUT
+case 1
 Enter 3 numbers:
 10
 20
 50
-Incresing order....!
+Increasing order....!
+
+case 2
+Enter 3 numbers:
+9
+8
+7
+Dicreasing order....!
+case 3
+Enter 3 numbers:
+9
+7
+8
+Neither Increasing Nor Dicreasing order....!
+
 
 
 */

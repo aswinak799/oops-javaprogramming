@@ -86,11 +86,18 @@ public class exp3 {
 }
 /*
 OUTPUT
+case 1
 Enter month:4
 Enter year:2001
 April 2001
 30 days in the month
 It is not a leapyear
 
+case 2
+Enter month:2
+Enter year:2000
+Februvary 2000
+29 days in the month
+It is a leapyear
 
 */
