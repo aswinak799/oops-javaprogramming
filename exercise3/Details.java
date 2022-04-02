@@ -8,7 +8,7 @@ import java.util.*;
 class Product{ //create a class product
 	int pcode;
 	double price;		//declare variables
-	char pname;
+	String pname;
 	void disp(){  // methord for display details
 		
 		System.out.println("product code:"+pcode+"\nproduct Name:"+pname+"\nProduct Price"+price);		
@@ -27,7 +27,7 @@ public class Details { //main class
 		System.out.print("\nproduct code:");
 		p1.pcode=ob.nextInt();
 		System.out.print("product Name:");
-		p1.pname=ob.next().charAt(0);
+		p1.pname=ob.next();
 		System.out.print("product Price:");
 		p1.price=ob.nextDouble();
 		System.out.println("-----------------------");
@@ -37,7 +37,7 @@ public class Details { //main class
 		System.out.print("\nproduct code:");
 		p2.pcode=ob.nextInt();
 		System.out.print("product Name:");
-		p2.pname=ob.next().charAt(0);
+		p2.pname=ob.next();
 		System.out.print("product Price:");
 		p2.price=ob.nextDouble();
 		System.out.println("-----------------------");
@@ -47,7 +47,7 @@ public class Details { //main class
 		System.out.print("\nproduct code:");
 		p3.pcode=ob.nextInt();
 		System.out.print("product Name:");
-		p3.pname=ob.next().charAt(0);
+		p3.pname=ob.next();
 		System.out.print("product Price:");
 		p3.price=ob.nextDouble();
 		System.out.println("-----------------------\n");
@@ -85,6 +85,30 @@ public class Details { //main class
 /*
 Output
 
+Enter the details of product 1
+
+product code:10
+product Name:GOLD
+product Price:4000
+-----------------------
+Enter the details of product 2
+
+product code:14
+product Name:RUBY
+product Price:5000
+-----------------------
+Enter the details of product 3
+
+product code:16
+product Name:DIAMOND
+product Price:8000
+-----------------------
+
+The product GOLDis minimum price
+-------------------
+product code:10
+product Name:GOLD
+Product Price4000.0
 
 
 

@@ -21,11 +21,11 @@ class search{
 }
 class Employee{
 	int eno;			//initialise variables
-	char eName;
+	String eName;
 	double eSalary;
 	
 	
-	void setData(int eno,char name,double salary){
+	void setData(int eno,String name,double salary){
 			this.eno=eno;
 			this.eName=name;      
 			this.eSalary=salary;
@@ -53,7 +53,7 @@ class Employee{
 					int en=obj.nextInt();
 					
 					System.out.print("\nEnter emp name:");
-					char name=obj.next().charAt(0);
+					String name=obj.next();
 					
 					System.out.print("\nEnter emp salary:");
 					double sal=obj.nextDouble();
