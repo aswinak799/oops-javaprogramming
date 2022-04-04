@@ -72,3 +72,4 @@ Enter the elements in the matrix:
 It is not a symmetric matrix
 
 */ 
+//Don't use inbuilt function
