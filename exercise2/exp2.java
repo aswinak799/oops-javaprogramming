@@ -35,15 +35,30 @@ public class exp2 {
 			}
 			
 		}
-		
-		if(Arrays.deepEquals(array1, array2))//checking symmetric or not
+		int same =0;
+		for (int i=0;i<rows;i++) 
 		{
+			for(int j=0;j<cols;j++) 
+			{
+				if(array1[i][j]==array2[i][j])
+				{
+					same = 1;							
+				}
+				else{
+						same =0;
+						break;					
+					}
+									
+			}
+			}
+		if(same==1){
 			System.out.println("It is a symmetric matrix");
+
 		}
-		else{
-			System.out.println("It is not a symmetric matrix");
-		}
-			
+		else if(same==0){
+				System.out.println("It is not a symmetric matrix");
+			}
+		
 			
 		
 		
@@ -59,7 +74,7 @@ Enter the elements in the matrix:
 1 2 3
 2 5 6
 3 6 3
-It is a symmetric matrix
+It is a symmetric matrixs
 
 case 2
 enter the rows columns:
