@@ -60,3 +60,4 @@ Ram
 memmory=8
 Manifacture:BBK
 */
+//Create a static nested class
