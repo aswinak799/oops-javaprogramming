@@ -1,5 +1,3 @@
-
-
 import java.util.*;
 
 
@@ -14,7 +12,7 @@ public class exp2 {
 		int cols=obj.nextInt();
 		
 		int array1[][]= new int[rows][cols];// array initialization
-		int array2[][]= new int[rows][cols];
+		
 		
 		System.out.println("Enter the elements in the matrix:"); // insert elements
 		for (int i=0;i<rows;i++) 
@@ -26,15 +24,39 @@ public class exp2 {
 			}
 			
 		}
+		boolean same =false;
 		for (int i=0;i<rows;i++) //creating transpose of the matrix
 		{
 			for(int j=0;j<cols;j++) 
 			{
-				array2[i][j]=array1[j][i];
+				if(array1[i][j]==array1[j][i]){
+						same=true;
 				
-			}
+				}
+				else{
+						same=false;
+						break;
+						
+				}
+					
+				
+			}	
 			
 		}
+		if(same){
+			System.out.println("It is a symmetric matrix");
+
+				
+		}
+		else{
+				System.out.println("It is not a symmetric matrix");
+		}
+		
+		
+		
+		
+		
+		/*
 		int same =0;
 		for (int i=0;i<rows;i++) 
 		{
@@ -53,11 +75,10 @@ public class exp2 {
 			}
 		if(same==1){
 			System.out.println("It is a symmetric matrix");
-
 		}
 		else if(same==0){
 				System.out.println("It is not a symmetric matrix");
-			}
+			}*/
 		
 			
 		
@@ -75,7 +96,6 @@ Enter the elements in the matrix:
 2 5 6
 3 6 3
 It is a symmetric matrixs
-
 case 2
 enter the rows columns:
 rows :3
@@ -85,5 +105,5 @@ Enter the elements in the matrix:
 5 6 8
 4 5 2
 It is not a symmetric matrix
-
 */ 
+//Don't use inbuilt function
