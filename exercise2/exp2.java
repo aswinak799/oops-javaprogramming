@@ -1,3 +1,8 @@
+/*
+Read a matrix from the console and check whether it is
+symmetric or not.
+*/
+
 import java.util.*;
 
 
@@ -79,9 +84,6 @@ public class exp2 {
 		else if(same==0){
 				System.out.println("It is not a symmetric matrix");
 			}*/
-		
-			
-		
 		
 }
 }

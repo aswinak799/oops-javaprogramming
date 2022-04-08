@@ -26,7 +26,7 @@ class Cpu{
 					}
 			
 			}
-			class Ram{
+			static class Ram{
 					int memmory=8;
 					String manifacture="BBK";
 					Ram(){
