@@ -15,7 +15,7 @@ class Employee{
 	double Salary;
 	String Address;
 	
-	 void Employee(int id,String name,double sal,String add){
+	  void Employee(int id,String name,double sal,String add){
 		Empid=id;
 		Name=name;
 		Salary=sal;
@@ -65,7 +65,7 @@ class Main{
 			
 			Teacher[] arr;
 			arr=new Teacher[n];// Allocating memory for n objects of type Teacher
-			int array[]=new int[n];
+			
 			for(int i=0;i<n;i++){
 					System.out.println("Enter the details of "+(i+1)+"th Teacher");
 					
