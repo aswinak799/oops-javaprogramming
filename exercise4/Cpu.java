@@ -17,11 +17,11 @@ class Cpu{
 			
 			
 			class Processor{
-					int line_code=100;
+					int no_of_cores=8;
 					String manifacture="intel";
 					Processor(){
 						System.out.println("\nProcessor");
-						System.out.println("line of codes="+line_code+"\nManifacture:"+manifacture);
+						System.out.println("no_of_cores="+no_of_cores+"\nManifacture:"+manifacture);
 						
 					}
 			
@@ -37,12 +37,19 @@ class Cpu{
 					}
 					
 			}
-			public static void main(String ar[]){
+			
+
+}
+
+
+
+class Main{
+	public static void main(String ar[]){
 					Cpu cpu=new Cpu();
 					cpu.display();
 			
 			}
-			
+
 
 }
 /*
@@ -53,11 +60,12 @@ CPU Detais
 price=6500.0
 
 Processor
-line of codes=100
+no_of_cores=8
 Manifacture:intel
 
 Ram
 memmory=8
 Manifacture:BBK
+
 */
 //Create a static nested class
