@@ -1,3 +1,5 @@
+/*3. Prepare bill with the given format using
+calculate method from interface.*/
 import java.util.*;
 interface Bill_Gen{
 	 void Calculate();

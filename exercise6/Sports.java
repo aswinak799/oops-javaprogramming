@@ -1,3 +1,8 @@
+/*1. Create interfaces Student and Sports. Create
+a class Result implements Student and Sports.
+Display the academic and sports score of a
+student.*/
+
 interface Student{
 	int Score=10;
 	void displayScore();
