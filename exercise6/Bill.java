@@ -7,7 +7,7 @@ interface Bill_Gen{
 
 }
 
-class ProductB{
+class ProductB implements Bill_Gen{
 	String name;
 	int prod_id;
 	int quantity;
