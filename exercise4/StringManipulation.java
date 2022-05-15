@@ -22,8 +22,8 @@ class StrManipulation{
 		//toUpperCase and toLowerCase
 		System.out.println("\n---------string case change------------\n");
 		System.out.println(s1+" toUpperCase: "+s1.toUpperCase());
-		System.out.println(s2+" toUpperCase: "+s2.toLowerCase());
-
+		System.out.println(s2+" toLowerCase: "+s2.toLowerCase());
+		
 		System.out.println("\n---------string concatnation------------\n");
 		System.out.println("using concat() :"+s1.concat(s2));
 		System.out.println("using + operator :"+ s1 + s2);
@@ -86,7 +86,7 @@ string length of 'good': 4
 ---------string case change------------
 
 good toUpperCase: GOOD
-Morning toUpperCase: morning
+Morning toLowerCase: morning
 
 ---------string concatnation------------
 
