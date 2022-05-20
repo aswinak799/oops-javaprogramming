@@ -72,7 +72,7 @@ class Rectangle implements AP{
 
 
 
-class Main{
+class AreaPeri{
 	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
 		Circle c=new Circle();

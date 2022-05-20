@@ -72,7 +72,7 @@ class Fiction  extends Book{
 }
 
 
-class Main {
+class book {
 	public static void main(String ar[]){
 
 		Scanner sc= new Scanner(System.in);

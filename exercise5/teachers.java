@@ -54,7 +54,7 @@ class Teacher extends Employee {
 
 }
 
-class Main{
+class teacher{
 
 	public static void main(String args[]){
 			Scanner obj=new Scanner(System.in);

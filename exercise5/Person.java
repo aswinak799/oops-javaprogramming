@@ -82,7 +82,7 @@ class Teacher extends Employee { //create class Teacher that inherit Employee
 
 }
 
-class Main{  //Main class
+class person{  //Main class
 
 	public static void main(String args[]){	//main methord
 			Scanner obj=new Scanner(System.in);
