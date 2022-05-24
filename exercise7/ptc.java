@@ -96,3 +96,32 @@ c.t.start();
 System.out.println("Press Control-C to stop.");
 }
 }
+
+
+/*
+output
+------
+Press Control-C to stop.
+Put: 0
+Got: 0
+Put: 1
+Got: 1
+Put: 2
+Got: 2
+Put: 3
+Got: 3
+Put: 4
+Got: 4
+Put: 5
+Got: 5
+Put: 6
+Got: 6
+Put: 7
+Got: 7
+Put: 8
+Got: 8
+Put: 9
+Got: 9
+Put: 10
+Got: 10
+*/
