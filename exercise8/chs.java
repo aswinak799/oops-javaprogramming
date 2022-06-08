@@ -11,19 +11,21 @@ public class chs {
 		set.add("Orange");
 		set.add("Pink");
 		
-		System.out.println(set);
+		System.out.println("set 1 : "+set);
 		HashSet<String> set2=new HashSet<String>();
 		set2.add("Red");
 		set2.add("Pink");
 		set2.add("Black");
 		set2.add("Orange");
-		System.out.println(set2);
+		System.out.println("set 2 : "+set2);
 		//comparison output in hash set
 		for (String element : set){		
 		//System.out.print("Both HashSet contain  "+element+" ");
 		System.out.print(set2.contains(element) ? "Both HashSet contain ": "Both HashSet not contain " );
 		System.out.println(element);
 		}
+		System.out.println("\nAre both set equal : "+ set.equals(set2));
+		
 	}
 }
 
@@ -31,11 +33,14 @@ public class chs {
 /*
 output
 -----
-[Red, Pink, Black, Orange, Green]
-[Red, Pink, Black, Orange]
+set 1 : [Red, Pink, Black, Orange, Green]
+set 2 : [Red, Pink, Black, Orange]
 Both HashSet contain Red
 Both HashSet contain Pink
 Both HashSet contain Black
 Both HashSet contain Orange
 Both HashSet not contain Green
+
+Are both set equal : false
+
 */
