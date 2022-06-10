@@ -34,7 +34,7 @@ class Main{
 		Double[] array1 ={2.1,5.2,3.4,6.5,6.0,4.2};
 		Integer[] array2 ={2,5,3,6,6,4};
 		//Double a [];
-		BubleSort b= new BubleSort();
+		BubleSort<Double> b= new BubleSort<Double>();
 		b.Sort(array1);
 		
 		//b.Sort(array2);
